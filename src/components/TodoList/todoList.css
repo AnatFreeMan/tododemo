@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.item {
+  display: flex;
+  width: 100%;
+}
+.cell {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.title {
+  min-width: 400px;
+}

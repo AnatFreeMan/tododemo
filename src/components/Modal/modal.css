@@ -1,0 +1,77 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: none;
+}
+
+.modal-content {
+  padding: 40px;
+  border-radius: 5px;
+  background: #54565f;
+  width: 60vw;
+}
+
+.modal.active {
+  display: flex;
+}
+
+button[type="submit"],
+input[type="submit"] {
+  background: #7440ec;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background: #4517c5;
+}
+
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+button[type="submit"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+
+button[type="button"] {
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+button {
+  appearance: none;
+  margin-top: 10px;
+  border: 1px solid #333;
+  margin: 10px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
