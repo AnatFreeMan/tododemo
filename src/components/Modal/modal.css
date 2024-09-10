@@ -33,7 +33,7 @@ input[type="submit"] {
   padding: 20px;
   font-size: 16px;
   font-weight: 100;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
 }
 
 button[type="submit"]:hover,

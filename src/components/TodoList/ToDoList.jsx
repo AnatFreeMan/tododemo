@@ -33,8 +33,6 @@ const TodoList = () => {
     }
   };
 
-  /* const confirmContent = useMemo(() => (getConfirmContent()), []); */
-
   const getConfirmContent = (itemId) => {
     return (
       <>
